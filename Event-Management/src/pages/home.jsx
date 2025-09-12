@@ -1,10 +1,18 @@
 import React from "react";
 import "../css/home.css";
 import { useNavigate } from "react-router-dom";
+import img1 from "../assets/images/home-images/banner-img1.jpg"
+import img2 from "../assets/images/home-images/banner-img2.jpg"
+import img3 from "../assets/images/home-images/banner-img3.jpg"
+import img4 from "../assets/images/home-images/home-img1.jpg"
+import img6 from "../assets/images/home-images/home-img2.jpg"
+import img5 from "../assets/images/home-images/home-img3.jpg"
+import video from "../assets/video/campus.mp4"
 import WelcomeModal from "../components/welcomemodal";
 import Card from "../components/Card";
 
 function Home() {
+
     const navigate = useNavigate();
   return (
     <>
@@ -41,7 +49,7 @@ function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/src/assets/images/home-images/banner-img1.jpg"
+              src={img1}
               className="d-block w-100"
               alt="banner1"
             />
@@ -54,8 +62,8 @@ function Home() {
           </div>
 
           <div className="carousel-item">
-            <img
-              src="/src/assets/images/home-images/banner-img2.jpg"
+            <img 
+              src={img2}
               className="d-block w-100"
               alt="banner2"
             />
@@ -66,7 +74,7 @@ function Home() {
 
           <div className="carousel-item">
             <img
-              src="/src/assets/images/home-images/banner-img3.jpg"
+              src={img3}
               className="d-block w-100"
               alt="banner3"
             />
@@ -112,7 +120,7 @@ function Home() {
         </div>
         <div className="banner">
           <img
-            src="/src/assets/images/home-images/home-img1.jpg"
+            src={img4}
             alt="Campus Event Banner"
           />
         </div>
@@ -120,7 +128,7 @@ function Home() {
       <section className="homepage">
         <div className="banner">
           <img
-            src="/src/assets/images/home-images/home-img2.jpg"
+            src={img6}
             alt="Campus Event Banner"
           />
         </div>
@@ -147,7 +155,7 @@ function Home() {
         </div>
         <div className="banner">
           <img
-            src="/src/assets/images/home-images/home-img3.jpg"
+            src={img5}
             alt="Campus Event Banner"
           />
         </div>
@@ -164,7 +172,7 @@ function Home() {
           loop
           playsInline
         >
-          <source src="/src/assets/video/campus.mp4" type="video/mp4" />
+          <source src={video} type="video/mp4" />
         </video>
         <div className="video-overlay">
           <h2>Step Into the Campus Vibe</h2>
