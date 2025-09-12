@@ -63,14 +63,14 @@ body {
 }
 .footer-brand {
   display: flex;
-  align-items: center;   /* vertically center text with image */
-  gap: 10px;             /* space between logo and text */
+  align-items: center;   
+  gap: 10px;            
 }
 
 .footer-logo-img {
-  width: 60px;           /* adjust size as you like */
+  width: 60px;           
   height: auto;
-  border-radius: 8px;    /* optional: rounded corners */
+  border-radius: 8px;    
 }
 
 .footer-logo-text {

@@ -6,7 +6,6 @@ import "../css/footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* Hero Section */}
       <div className="footer-hero">
         <div className="footer-hero-content">
           <h2>
@@ -17,9 +16,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Main Footer */}
       <div className="footer-container">
-        {/* Left Column */}
         <div className="footer-column">
         <div className="footer-brand">
           <img src={logo} alt="Campus Connect Logo" className="footer-logo-img" />
@@ -34,7 +31,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
@@ -46,7 +42,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social */}
         <div className="footer-column">
           <h3>Follow Us</h3>
           <ul>
@@ -58,7 +53,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Legal */}
         <div className="footer-column">
           <h3>Legal</h3>
           <ul>
@@ -69,7 +63,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Copy */}
       <div className="footer-bottom">
         <p>© 2024 CampusConnect. All rights reserved.</p>
       </div>

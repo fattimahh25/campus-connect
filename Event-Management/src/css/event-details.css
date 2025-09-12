@@ -212,9 +212,7 @@
   padding: 30px;
   color: #777;
 }
-/* ---------- Responsive Design ---------- */
 
-/* Tablets (≤1024px) */
 @media (max-width: 1024px) {
   .page-container {
     margin: 20px;
@@ -234,7 +232,6 @@
   }
 }
 
-/* Mobiles (≤768px) */
 @media (max-width: 768px) {
   .page-container {
     margin: 10px;
@@ -255,7 +252,7 @@
   }
 
   .event-grid {
-    grid-template-columns: 1fr; /* single column on small screens */
+    grid-template-columns: 1fr; 
     gap: 12px;
   }
 
@@ -283,7 +280,6 @@
   }
 }
 
-/* Very Small devices (≤480px) */
 @media (max-width: 480px) {
   .page-header h1 {
     font-size: 1.5rem;

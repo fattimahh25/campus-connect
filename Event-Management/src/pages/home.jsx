@@ -160,10 +160,8 @@ function Home() {
           />
         </div>
       </section>
-      {/* Upcoming Events Slider */}
       <h1 className="upc-heading">Upcoming Events</h1>
       <Card />
-      {/* Video Section */}
       <section className="video-section">
         <video
           className="campus-video"
@@ -185,7 +183,6 @@ function Home() {
         </div>
       </section>
 
-      {/* 🔹 Rating & Total Events Section */}
      <section className="stats-section">
   <h2 className="stats-heading">Ratings and Events</h2>
   <div className="stats-container">

@@ -66,7 +66,7 @@ nav a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: #E0AAFF; /* neon purple */
+  background: #E0AAFF; 
   transition: width 0.4s ease;
 }
 nav a:hover::after {
@@ -94,7 +94,7 @@ nav a:hover {
 }
 .social-icons a:hover {
   transform: rotate(10deg) scale(1.2);
-  color: #FFB703; /* warm golden orange */
+  color: #FFB703; 
 }
 
 .menu-btn {

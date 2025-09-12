@@ -4,15 +4,15 @@ import "../css/welcomemodal.css";
 export default function WelcomeModal() {
   const [role, setRole] = useState(null);
   const [showModal, setShowModal] = useState(false);
-  const [showMsg, setShowMsg] = useState(false); // ✅ extra state for welcome msg
+  const [showMsg, setShowMsg] = useState(false); 
 
-  // Check if user already selected role
+
   useEffect(() => {
     const savedRole = localStorage.getItem("userRole");
     if (savedRole) {
       setRole(savedRole);
       setShowMsg(true);
-      setTimeout(() => setShowMsg(false), 2000); // hide after 2 sec
+      setTimeout(() => setShowMsg(false), 2000); 
     } else {
       setShowModal(true);
     }
@@ -20,15 +20,14 @@ export default function WelcomeModal() {
 
   const handleSelect = (selectedRole) => {
     setRole(selectedRole);
-    localStorage.setItem("userRole", selectedRole); // save in localStorage
-    setShowModal(false); // close modal
-    setShowMsg(true); // show msg
-    setTimeout(() => setShowMsg(false), 5000); // hide after 2 sec
+    localStorage.setItem("userRole", selectedRole); 
+    setShowModal(false); 
+    setShowMsg(true); 
+    setTimeout(() => setShowMsg(false), 5000); 
   };
 
   return (
     <>
-      {/* Modal only if role not chosen */}
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-box">
@@ -53,7 +52,6 @@ export default function WelcomeModal() {
         </div>
       )}
 
-      {/* Welcome Message after selection */}
       {showMsg && (
         <div className="welcome-msg">
           🎉 Welcome {role}! Glad to have you on CampusConnect 🚀

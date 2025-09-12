@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import "../css/home.css";
 import cultural from "../assets/images/cards images/culltural.jpg"
 import techfest from "../assets/images/cards images/techfest.jpg"
@@ -23,11 +25,11 @@ cultural, techfest, sports, science,lecture,hackathone
     autoplaySpeed: 2500,
     responsive: [
       {
-        breakpoint: 1024, // tablets
+        breakpoint: 1024, 
         settings: { slidesToShow: 2 },
       },
       {
-        breakpoint: 600, // mobile
+        breakpoint: 600, 
         settings: { slidesToShow: 1 },
       },
     ],

@@ -84,7 +84,6 @@ export default function EventCalendar()
 
   return (
     <div className="event-page">
-      {/* Filters */}
       <div className="filters">
         <div className="search-box">
           <Search size={18} />

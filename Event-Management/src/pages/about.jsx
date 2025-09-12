@@ -1,17 +1,15 @@
 import React from "react";
 import "../css/about.css";
-import teamImg from "../assets/images/about/team.jpg"; // <-- add your image path
+import teamImg from "../assets/images/about/team.jpg"; 
 
 const About = () => {
   return (
     <div className="about-container">
-      {/* Banner */}
       <div className="about-banner">
         <h1>About Our Campus</h1>
         <p>Connecting Students, Faculty, and Guests through Events</p>
       </div>
 
-      {/* Timeline */}
       <div className="about-section">
         <div className="timeline-vertical">
           <div className="timeline-item">
@@ -57,7 +55,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Our Story */}
       <section className="about-section">
         <h2>Our Story</h2>
         <p>
@@ -75,7 +72,6 @@ const About = () => {
         </p>
       </section>
 
-      {/* What We Offer */}
       <section className="about-section offers">
         <h2>What We Offer</h2>
         <ul>
@@ -86,7 +82,6 @@ const About = () => {
         </ul>
       </section>
 
-      {/* Promise Section */}
       <section className="about-section">
         <h2>Our Promise</h2>
         <p>
@@ -98,7 +93,6 @@ const About = () => {
         </p>
       </section>
 
-      {/* Team Section */}
       <section className="about-team">
         <div className="team-text">
           <h2>Meet the Team</h2>
@@ -115,7 +109,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="about-cta">
         <h2>Join Our Sweet Journey</h2>
         <p>

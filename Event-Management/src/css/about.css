@@ -147,7 +147,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* CTA */
 .about-cta {
   text-align: center;
   padding: 3rem 2rem;
@@ -176,7 +175,6 @@ background-size: cover;
   color: #fff;
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
 
   .about-section h2 {
@@ -189,7 +187,6 @@ background-size: cover;
   }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .about-banner h1 {
     font-size: 2rem;
