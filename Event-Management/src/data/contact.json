@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dr. Ayesha Khan",
+    "designation": "Professor",
+    "department": "Computer Science",
+    "phone": "+92 321 9876543",
+    "email": "ayesha.khan@university.edu"
+  },
+  {
+    "name": "Mr. Ali Raza",
+    "designation": "Assistant Professor",
+    "department": "Electrical Engineering",
+    "phone": "+92 300 1234567",
+    "email": "ali.raza@university.edu"
+  },
+  {
+    "name": "Sara Ahmed",
+    "designation": "Student Coordinator",
+    "department": "Software Engineering",
+    "phone": "+92 333 7654321",
+    "email": "sara.ahmed@university.edu"
+  }
+]

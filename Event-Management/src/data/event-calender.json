@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Tech Symposium",
+    "date": "2024-03-15",
+    "time": "09:00 AM",
+    "location": "Main Auditorium",
+    "category": "Academic",
+    "description": "Join us for cutting-edge presentations on emerging technologies and their impact on society.",
+    "attendees": 250,
+    "image": "img2"
+  },
+  {
+    "id": 2,
+    "title": "Research Showcase",
+    "date": "2024-04-05",
+    "time": "02:00 PM",
+    "location": "Science Building",
+    "category": "Academic",
+    "description": "Student and faculty research presentations across all disciplines.",
+    "attendees": 150,
+    "image": "img1"
+  },
+  {
+    "id": 3,
+    "title": "Mathematics Workshop",
+    "date": "2024-05-10",
+    "time": "11:00 AM",
+    "location": "Room 204, Science Block",
+    "category": "Academic",
+    "description": "Interactive workshop focusing on problem-solving techniques for competitions.",
+    "attendees": 80,
+    "image": "img1"
+  },
+  {
+    "id": 4,
+    "title": "Guest Lecture: AI & Ethics",
+    "date": "2024-06-02",
+    "time": "10:30 AM",
+    "location": "Seminar Hall",
+    "category": "Academic",
+    "description": "Renowned AI researcher discusses ethical challenges of artificial intelligence.",
+    "attendees": 200,
+    "image": "img2"
+  },
+  {
+    "id": 5,
+    "title": "Science Exhibition",
+    "date": "2024-07-12",
+    "time": "09:00 AM",
+    "location": "Exhibition Center",
+    "category": "Academic",
+    "description": "Student innovations and projects in science and engineering.",
+    "attendees": 300,
+    "image": "img5"
+  },
+
+  {
+    "id": 6,
+    "title": "Spring Cultural Festival",
+    "date": "2024-03-22",
+    "time": "06:00 PM",
+    "location": "Campus Grounds",
+    "category": "Cultural",
+    "description": "Celebrate diversity with music, dance, and food from around the world.",
+    "attendees": 500,
+    "image": "img6"
+  },
+  {
+    "id": 7,
+    "title": "Drama Night",
+    "date": "2024-04-20",
+    "time": "07:00 PM",
+    "location": "Auditorium",
+    "category": "Cultural",
+    "description": "Annual inter-college drama competition featuring classical and modern plays.",
+    "attendees": 400,
+    "image": "img7"
+  },
+  {
+    "id": 8,
+    "title": "Music Concert",
+    "date": "2024-05-15",
+    "time": "08:00 PM",
+    "location": "Open Air Theater",
+    "category": "Cultural",
+    "description": "Live performances by student bands and local artists.",
+    "attendees": 600,
+    "image": "img8"
+  },
+  {
+    "id": 9,
+    "title": "Dance Battle",
+    "date": "2024-06-18",
+    "time": "05:00 PM",
+    "location": "Student Center",
+    "category": "Cultural",
+    "description": "Street-style dance competition with hip-hop, freestyle, and fusion.",
+    "attendees": 450,
+    "image": "img9"
+  },
+  {
+    "id": 10,
+    "title": "Food Carnival",
+    "date": "2024-07-25",
+    "time": "04:00 PM",
+    "location": "Campus Grounds",
+    "category": "Cultural",
+    "description": "Enjoy international cuisines with food stalls from students and vendors.",
+    "attendees": 700,
+    "image": "img10"
+  },
+
+  {
+    "id": 11,
+    "title": "Career Fair 2024",
+    "date": "2024-03-28",
+    "time": "10:00 AM",
+    "location": "Sports Complex",
+    "category": "Career",
+    "description": "Connect with top employers and explore internship and job opportunities.",
+    "attendees": 300,
+    "image": "img11"
+  },
+  {
+    "id": 12,
+    "title": "Resume Building Workshop",
+    "date": "2024-04-25",
+    "time": "01:00 PM",
+    "location": "Training Room",
+    "category": "Career",
+    "description": "Learn how to create impactful resumes and cover letters.",
+    "attendees": 120,
+    "image": "img12"
+  },
+  {
+    "id": 13,
+    "title": "Interview Skills Bootcamp",
+    "date": "2024-05-30",
+    "time": "09:00 AM",
+    "location": "Conference Hall",
+    "category": "Career",
+    "description": "Mock interview practice with industry experts.",
+    "attendees": 200,
+    "image": "img13"
+  },
+  {
+    "id": 14,
+    "title": "Startup Pitch Competition",
+    "date": "2024-06-22",
+    "time": "03:00 PM",
+    "location": "Innovation Hub",
+    "category": "Career",
+    "description": "Student entrepreneurs pitch ideas to investors and judges.",
+    "attendees": 180,
+    "image": "img14"
+  },
+  {
+    "id": 15,
+    "title": "Career Guidance Session",
+    "date": "2024-07-10",
+    "time": "11:00 AM",
+    "location": "Seminar Hall",
+    "category": "Career",
+    "description": "Industry experts share tips and advice for career success.",
+    "attendees": 140,
+    "image": "img15"
+  },
+
+  {
+    "id": 16,
+    "title": "Sports Championship",
+    "date": "2024-04-12",
+    "time": "03:00 PM",
+    "location": "Athletic Stadium",
+    "category": "Sports",
+    "description": "Inter-college championship finals featuring multiple sports competitions.",
+    "attendees": 800,
+    "image": "img16"
+  },
+  {
+    "id": 17,
+    "title": "Basketball Tournament",
+    "date": "2024-05-08",
+    "time": "05:00 PM",
+    "location": "Indoor Stadium",
+    "category": "Sports",
+    "description": "College-level basketball tournament for boys and girls.",
+    "attendees": 350,
+    "image": "img17"
+  },
+  {
+    "id": 18,
+    "title": "Cricket League",
+    "date": "2024-06-15",
+    "time": "02:00 PM",
+    "location": "Cricket Ground",
+    "category": "Sports",
+    "description": "Inter-department cricket league tournament.",
+    "attendees": 500,
+    "image": "img18"
+  },
+  {
+    "id": 19,
+    "title": "Marathon",
+    "date": "2024-07-05",
+    "time": "06:00 AM",
+    "location": "City Track",
+    "category": "Sports",
+    "description": "Annual marathon for students and faculty.",
+    "attendees": 1000,
+    "image": "img19"
+  },
+  {
+    "id": 20,
+    "title": "Table Tennis Championship",
+    "date": "2024-08-12",
+    "time": "10:00 AM",
+    "location": "Sports Hall",
+    "category": "Sports",
+    "description": "Fast-paced table tennis matches among the best players.",
+    "attendees": 150,
+    "image": "img20"
+  },
+
+  {
+    "id": 21,
+    "title": "Alumni Networking Night",
+    "date": "2024-04-18",
+    "time": "07:00 PM",
+    "location": "Student Center",
+    "category": "Networking",
+    "description": "Connect with successful alumni and expand your professional network.",
+    "attendees": 120,
+    "image": "img21"
+  },
+  {
+    "id": 22,
+    "title": "Women in Tech Meetup",
+    "date": "2024-05-12",
+    "time": "04:00 PM",
+    "location": "Innovation Hub",
+    "category": "Networking",
+    "description": "Celebrating women leaders in technology with mentoring sessions.",
+    "attendees": 90,
+    "image": "img22"
+  },
+  {
+    "id": 23,
+    "title": "Startup Networking Brunch",
+    "date": "2024-06-08",
+    "time": "11:00 AM",
+    "location": "Business Incubator",
+    "category": "Networking",
+    "description": "Informal brunch with startup founders and venture capitalists.",
+    "attendees": 70,
+    "image": "img23"
+  },
+  {
+    "id": 24,
+    "title": "Faculty-Student Mixer",
+    "date": "2024-07-02",
+    "time": "06:00 PM",
+    "location": "Faculty Lounge",
+    "category": "Networking",
+    "description": "An informal event to build stronger faculty-student connections.",
+    "attendees": 110,
+    "image": "img24"
+  }
+]

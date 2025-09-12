@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "TechFest 2025",
+    "text": "Showcase of innovative technology projects and Electronic Music Festival.",
+    "counter": "2025-10-15T10:00:00",
+    "image": "techfest",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  },
+  {
+    "id": 2,
+    "title": "Cultural Week",
+    "text": "Celebrate music, dance, drama, and art performances on campus.",
+    "counter": "2025-11-01T09:00:00",
+    "image": "cultural",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  },
+  {
+    "id": 3,
+    "title": "Hackathon Challenge",
+    "text": "Competitive coding event to solve real-world problems in teams.",
+    "counter": "2025-03-25T12:00:00",
+    "image": "hackathone",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  },
+  {
+    "id": 4,
+    "title": "Sports Fiesta",
+    "text": "Inter-college sports competitions including football, cricket, and athletics.",
+    "counter": "2025-10-05T08:00:00",
+    "image": "sports",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  },
+  {
+    "id": 5,
+    "title": "Guest Lecture Series",
+    "text": "Talks and workshops by industry experts and academic leaders.",
+    "counter": "2025-09-20T11:00:00",
+    "image": "lecture",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  },
+  {
+    "id": 6,
+    "title": "Science Expo",
+    "text": "Exhibition of innovative science projects and research by students.",
+    "counter": "2025-10-12T10:00:00",
+    "image": "science",
+    "buttonText": "Learn More",
+    "buttonLink": "/event-details"
+  }
+]

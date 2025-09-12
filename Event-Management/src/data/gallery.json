@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Fest",
+    "year": "2023-24",
+    "category": "Technical",
+    "image": "techfest"
+  },
+  {
+    "id": 2,
+    "title": "Annual Sports Day",
+    "year": "2023-24",
+    "category": "Sports",
+    "image": "annualsport"
+  },
+  {
+    "id": 3,
+    "title": "Cultural Fest",
+    "year": "2023-24",
+    "category": "Cultural",
+    "image": "cultural"
+  },
+  {
+    "id": 4,
+    "title": "Science Exhibition",
+    "year": "2023-24",
+    "category": "Technical",
+    "image": "science"
+  },
+  {
+    "id": 5,
+    "title": "Music Night",
+    "year": "2023-24",
+    "category": "Cultural",
+    "image": "music"
+  },
+  {
+    "id": 6,
+    "title": "Entrepreneurship Summit",
+    "year": "2023-24",
+    "category": "Technical",
+    "image": "entrepreneurship"
+  },
+
+  {
+    "id": 7,
+    "title": "Innovation Hackathon",
+    "year": "2022-23",
+    "category": "Technical",
+    "image": "hackathone"
+  },
+  {
+    "id": 8,
+    "title": "Inter-College Football Tournament",
+    "year": "2022-23",
+    "category": "Sports",
+    "image": "InterCollege"
+  },
+  {
+    "id": 9,
+    "title": "Drama & Theater Night",
+    "year": "2022-23",
+    "category": "Cultural",
+    "image": "Drama"
+  },
+  {
+    "id": 10,
+    "title": "Robotics Expo",
+    "year": "2022-23",
+    "category": "Technical",
+    "image": "Robotics"
+  },
+  {
+    "id": 11,
+    "title": "Art & Craft Exhibition",
+    "year": "2022-23",
+    "category": "Cultural",
+    "image": "Art"
+  },
+  {
+    "id": 12,
+    "title": "Business Plan Competition",
+    "year": "2022-23",
+    "category": "Technical",
+    "image": "business"
+  },
+
+  {
+    "id": 13,
+    "title": "Coding Marathon",
+    "year": "2021-22",
+    "category": "Technical",
+    "image": "coding"
+  },
+  {
+    "id": 14,
+    "title": "Athletics Meet",
+    "year": "2021-22",
+    "category": "Sports",
+    "image": "athletics"
+  },
+  {
+    "id": 15,
+    "title": "Food Festival",
+    "year": "2021-22",
+    "category": "Cultural",
+    "image": "foodfest"
+  },
+  {
+    "id": 16,
+    "title": "AI & Machine Learning Workshop",
+    "year": "2021-22",
+    "category": "Technical",
+    "image": "aiworkshop"
+  },
+  {
+    "id": 17,
+    "title": "Photography Contest",
+    "year": "2021-22",
+    "category": "Cultural",
+    "image": "photography"
+  },
+  {
+    "id": 18,
+    "title": "Startup Pitch Event",
+    "year": "2021-22",
+    "category": "Technical",
+    "image": "startup"
+  },
+
+  {
+    "id": 19,
+    "title": "Web Development Bootcamp",
+    "year": "2020-21",
+    "category": "Technical",
+    "image": "webbootcamp"
+  },
+  {
+    "id": 20,
+    "title": "Cricket Championship",
+    "year": "2020-21",
+    "category": "Sports",
+    "image": "cricket"
+  },
+  {
+    "id": 21,
+    "title": "Dance Competition",
+    "year": "2020-21",
+    "category": "Cultural",
+    "image": "dance"
+  },
+  {
+    "id": 22,
+    "title": "Tech Quiz",
+    "year": "2020-21",
+    "category": "Technical",
+    "image": "techquiz"
+  },
+  {
+    "id": 23,
+    "title": "Painting Exhibition",
+    "year": "2020-21",
+    "category": "Cultural",
+    "image": "painting"
+  },
+  {
+    "id": 24,
+    "title": "Digital Marketing Workshop",
+    "year": "2020-21",
+    "category": "Technical",
+    "image": "digitalmarketing"
+  }
+]

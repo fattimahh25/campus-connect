@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+  padding: 10px 40px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #222;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 1000;
+}
+
+.left-feature {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+.left-feature i {
+  margin-right: 6px;
+  font-size: 22px;
+  color: white;
+}
+
+.logo {
+  font-size: 34px;
+  color: #E0AAFF;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  margin-top: 10px;
+}
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  transition: all 0.4s ease;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #E0AAFF; /* neon purple */
+  transition: width 0.4s ease;
+}
+nav a:hover::after {
+  width: 100%;
+}
+nav a:hover {
+  transform: scale(1.1);
+  color: #E0AAFF;
+  text-shadow: 0 0 8px #BC13FE;
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  color: white;
+}
+.social-icons a {
+  margin-left: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: white;
+}
+.social-icons a:hover {
+  transform: rotate(10deg) scale(1.2);
+  color: #FFB703; /* warm golden orange */
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  z-index: 1001;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .left-feature {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    background: rgba(17, 17, 17, 0.95);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 1000;
+  }
+
+  .navlinks a {
+    margin: 12px 0;
+    font-size: 16px;
+    color: white;
+  }
+
+  .navlinks.open {
+    display: flex !important;
+    padding: 15px 0;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}

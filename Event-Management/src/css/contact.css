@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+/* ---------- Contact Section ---------- */
+.contact-section {
+  padding: 4rem 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.page-header {
+  background: white;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+/* ---------- Form ---------- */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1 1 45%;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: 1px solid #7c3aed;
+  border-radius: 0.7rem;
+  background: #f9fafb;
+  font-size: 1rem;
+  text-align: start;
+}
+
+.contact-form textarea {
+  flex: 1 1 100%;
+  border-radius: 1rem;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+}
+
+.send-btn {
+  background: #6d28d9;
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.send-btn:hover {
+  background: #2d1b69;
+}
+
+/* ---------- Info Cards ---------- */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 0 1rem;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  background-color: #2d1b69;
+  color: #fff;
+}
+
+.purple-card {
+  background: #2d1b69;
+  color: #fff;
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff6f61;
+}
+
+.info-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.info-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ---------- Coordinators ---------- */
+.coordinators-section {
+  margin: 3rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.coordinator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.coordinator-card {
+  background: #f9fafb;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coordinator-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.coordinator-card h3 {
+  margin-bottom: 0.5rem;
+  color: #7c3aed;
+}
+
+.coordinator-card p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.coordinator-card a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.coordinator-card a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .page-title {
+    font-size: 2rem;
+  }
+  .info-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+  .page-subtitle {
+    font-size: 0.95rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 2.5rem 1rem;
+  }
+  .page-title {
+    font-size: 1.5rem;
+  }
+  .info-card {
+    padding: 1.5rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
