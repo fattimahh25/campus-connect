@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "../css/Home.css";
+import "../css/home.css";
 import cultural from "../assets/images/cards images/culltural.jpg"
 import techfest from "../assets/images/cards images/techfest.jpg"
 import sports from "../assets/images/cards images/sports.jpg"
