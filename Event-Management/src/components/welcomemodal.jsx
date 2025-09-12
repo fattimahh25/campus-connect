@@ -2,28 +2,25 @@ import React, { useState, useEffect } from "react";
 import "../css/welcomemodal.css";
 
 export default function WelcomeModal() {
-  const [role, setRole] = useState(null);
+  const [role, setRole] = useState(sessionStorage.getItem("userRole"));
   const [showModal, setShowModal] = useState(false);
-  const [showMsg, setShowMsg] = useState(false); 
-
+  const [showMsg, setShowMsg] = useState(false);
 
   useEffect(() => {
-    const savedRole = localStorage.getItem("userRole");
-    if (savedRole) {
-      setRole(savedRole);
-      setShowMsg(true);
-      setTimeout(() => setShowMsg(false), 2000); 
-    } else {
+    // Modal sirf tab show hoga jab session me role save na ho
+    if (!role) {
       setShowModal(true);
     }
-  }, []);
+  }, [role]);
 
   const handleSelect = (selectedRole) => {
     setRole(selectedRole);
-    localStorage.setItem("userRole", selectedRole); 
-    setShowModal(false); 
-    setShowMsg(true); 
-    setTimeout(() => setShowMsg(false), 5000); 
+    sessionStorage.setItem("userRole", selectedRole);
+    setShowModal(false);
+    setShowMsg(true);
+
+    // 5 sec ke baad welcome message hide
+    setTimeout(() => setShowMsg(false), 5000);
   };
 
   return (
@@ -38,13 +35,22 @@ export default function WelcomeModal() {
             </p>
 
             <div className="modal-buttons">
-              <button onClick={() => handleSelect("Student")} className="btn student">
+              <button
+                onClick={() => handleSelect("Student")}
+                className="btn student"
+              >
                 I'm a Student
               </button>
-              <button onClick={() => handleSelect("Staff")} className="btn staff">
+              <button
+                onClick={() => handleSelect("Staff")}
+                className="btn staff"
+              >
                 I'm Staff
               </button>
-              <button onClick={() => handleSelect("User")} className="btn user">
+              <button
+                onClick={() => handleSelect("User")}
+                className="btn user"
+              >
                 I'm a User
               </button>
             </div>

@@ -6,7 +6,7 @@
     "counter": "2025-10-15T10:00:00",
     "image": "techfest",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/1"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "counter": "2025-11-01T09:00:00",
     "image": "cultural",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/2"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "counter": "2025-03-25T12:00:00",
     "image": "hackathone",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/3"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "counter": "2025-10-05T08:00:00",
     "image": "sports",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/4"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "counter": "2025-09-20T11:00:00",
     "image": "lecture",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/5"
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "counter": "2025-10-12T10:00:00",
     "image": "science",
     "buttonText": "Learn More",
-    "buttonLink": "/event-details"
+    "buttonLink": "/card-details/6"
   }
 ]

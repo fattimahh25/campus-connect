@@ -10,6 +10,7 @@ import EventDetail from './pages/event-details.jsx'
 import Feedback from './pages/feedback.jsx'
 import SignIn from './pages/sign-in.jsx'
 import Contact from './pages/contact.jsx'
+import CardDetail from './components/card-details.jsx'
 function App() {
 
   return (
@@ -20,7 +21,9 @@ function App() {
   <Route path="/gallery" element={<Gallery />} />
   <Route path="/event-calendar" element={<EventCalendar />} />
   <Route path="/event-details" element={<EventDetail />} />
+  <Route path="card-details/:id" element={<CardDetail />}></Route>
   <Route path="/feedback" element={<Feedback />} />
+  <Route path="/sign-in" element={<SignIn />} />
   <Route path="/signin" element={<SignIn />} />
   <Route path="/contact" element={<Contact />} />
 </Routes>

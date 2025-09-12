@@ -123,6 +123,50 @@ h1 {
   font-size: 0.9rem;
   color: #777;
 }
+/* Lightbox Overlay */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 12, 41, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Enlarged Image with Lightning Effect */
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(72, 67, 125, 0.9),
+              0 0 60px rgba(72, 67, 125, 0.7),
+              0 0 90px rgba(72, 67, 125, 0.5);
+  animation: zoomIn 0.3s ease-in-out;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.lightbox-img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.15) contrast(1.1) saturate(1.2);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
 
 @media (max-width: 992px) {
   .gallery-title,

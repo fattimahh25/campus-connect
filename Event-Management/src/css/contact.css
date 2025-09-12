@@ -112,7 +112,7 @@ body {
 
 .purple-card {
   background: #2d1b69;
-  color: #fff;
+  color: #fff !important;
 }
 
 .info-icon {

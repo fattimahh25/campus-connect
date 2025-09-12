@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/about.css";
+import Card from "../components/Card"
 import teamImg from "../assets/images/about/team.jpg"; 
 
 const About = () => {
@@ -71,7 +72,8 @@ const About = () => {
           impact on our campus community.
         </p>
       </section>
-
+      <h1 className="upc-heading">Annual Events</h1>
+<Card/>
       <section className="about-section offers">
         <h2>What We Offer</h2>
         <ul>

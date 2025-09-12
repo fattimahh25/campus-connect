@@ -10,7 +10,8 @@
       "category": "academic",
       "description": "Join us for an exciting day of scientific presentations and research showcases from our top students and faculty members.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/science.jpg"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "category": "cultural",
       "description": "Experience diverse cultures through music, dance, food, and art in our annual multicultural celebration.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/cultural.jpg"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "category": "sports",
       "description": "Cheer for your favorite teams in the thrilling finals of our inter-college basketball championship.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/basketball.jpg"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "category": "departmental",
       "description": "Explore cutting-edge research projects and meet faculty members from the Computer Science department.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/computer-science.jpg"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "category": "academic",
       "description": "Connect with successful alumni and explore career opportunities in various industries.",
       "status": "past",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/alumni.jpg"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "category": "cultural",
       "description": "Discover amazing artwork created by our talented students across various mediums and styles.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/art.jpg"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "category": "sports",
       "description": "Witness intense matches as teams compete for a spot in the championship finals.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/soccer.jpg"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "category": "departmental",
       "description": "Learn about the latest innovations in engineering and participate in hands-on workshops.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/engineering.jpg"
     },
 
     {
@@ -107,7 +115,8 @@
       "category": "academic",
       "description": "Prepare for the upcoming Math Olympiad with expert coaching and practice problems.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/math.jpg"
     },
     {
       "id": 10,
@@ -119,7 +128,8 @@
       "category": "academic",
       "description": "Learn the essentials of writing and publishing research papers in academic journals.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/research.jpg"
     },
     {
       "id": 11,
@@ -131,7 +141,8 @@
       "category": "academic",
       "description": "Meet professional advisors to discuss career paths and opportunities after graduation.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/career.jpg"
     },
 
     {
@@ -144,7 +155,8 @@
       "category": "cultural",
       "description": "Enjoy an evening of theater as the drama club presents a timeless classic.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/drama.jpg"
     },
     {
       "id": 13,
@@ -156,7 +168,8 @@
       "category": "cultural",
       "description": "Taste cuisines from around the world prepared by students and local chefs.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/food.jpg"
     },
     {
       "id": 14,
@@ -168,7 +181,8 @@
       "category": "cultural",
       "description": "Listen to amazing performances by our student music bands and solo artists.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/music.jpg"
     },
 
     {
@@ -181,7 +195,8 @@
       "category": "sports",
       "description": "Join the friendly competition or cheer for your peers at the table tennis open.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/table-tennis.jpg"
     },
     {
       "id": 16,
@@ -193,7 +208,8 @@
       "category": "sports",
       "description": "Watch thrilling races at our annual swimming gala featuring top athletes.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/swimming.jpg"
     },
     {
       "id": 17,
@@ -205,7 +221,8 @@
       "category": "sports",
       "description": "A friendly cricket match between students and faculty members.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/cricket.jpg"
     },
 
     {
@@ -218,7 +235,8 @@
       "category": "departmental",
       "description": "Get hands-on experience with biology experiments guided by senior researchers.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/biology.jpg"
     },
     {
       "id": 19,
@@ -230,7 +248,8 @@
       "category": "departmental",
       "description": "Attend a talk by a renowned psychologist about mental health trends in students.",
       "status": "upcoming",
-      "registrationRequired": false
+      "registrationRequired": false,
+      "image": "/images/psychology.jpg"
     },
     {
       "id": 20,
@@ -242,67 +261,73 @@
       "category": "departmental",
       "description": "Learn about essential lab safety practices and proper handling of chemicals.",
       "status": "upcoming",
-      "registrationRequired": true
+      "registrationRequired": true,
+      "image": "/images/chemistry.jpg"
     },
     {
-    "id": 21,
-    "name": "Winter Coding Hackathon",
-    "date": "2025-02-15",
-    "startTime": "09:00",
-    "endTime": "21:00",
-    "venue": "Innovation Lab",
-    "category": "academic",
-    "description": "A 12-hour hackathon where students built innovative apps and web solutions.",
-    "status": "past",
-    "registrationRequired": true
-  },
-  {
-    "id": 22,
-    "name": "Spring Dance Gala",
-    "date": "2025-03-12",
-    "startTime": "17:00",
-    "endTime": "20:00",
-    "venue": "Auditorium",
-    "category": "cultural",
-    "description": "A vibrant evening of performances by the dance society and guest artists.",
-    "status": "past",
-    "registrationRequired": false
-  },
-  {
-    "id": 23,
-    "name": "Tennis Championship",
-    "date": "2025-04-05",
-    "startTime": "10:00",
-    "endTime": "15:00",
-    "venue": "Sports Complex",
-    "category": "sports",
-    "description": "Exciting singles and doubles matches to crown the campus tennis champions.",
-    "status": "past",
-    "registrationRequired": false
-  },
-  {
-    "id": 24,
-    "name": "Robotics Demo Day",
-    "date": "2025-05-18",
-    "startTime": "13:00",
-    "endTime": "17:00",
-    "venue": "Engineering Workshop",
-    "category": "departmental",
-    "description": "Students showcased their autonomous robots and discussed future tech ideas.",
-    "status": "past",
-    "registrationRequired": true
-  },
-  {
-    "id": 25,
-    "name": "Photography Exhibition: Campus Life",
-    "date": "2025-06-22",
-    "startTime": "11:00",
-    "endTime": "16:00",
-    "venue": "Art Gallery",
-    "category": "cultural",
-    "description": "A collection of stunning photographs capturing everyday moments around campus.",
-    "status": "past",
-    "registrationRequired": false
-  }
+      "id": 21,
+      "name": "Winter Coding Hackathon",
+      "date": "2025-02-15",
+      "startTime": "09:00",
+      "endTime": "21:00",
+      "venue": "Innovation Lab",
+      "category": "academic",
+      "description": "A 12-hour hackathon where students built innovative apps and web solutions.",
+      "status": "past",
+      "registrationRequired": true,
+      "image": "/images/hackathon.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Spring Dance Gala",
+      "date": "2025-03-12",
+      "startTime": "17:00",
+      "endTime": "20:00",
+      "venue": "Auditorium",
+      "category": "cultural",
+      "description": "A vibrant evening of performances by the dance society and guest artists.",
+      "status": "past",
+      "registrationRequired": false,
+      "image": "/images/dance.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Tennis Championship",
+      "date": "2025-04-05",
+      "startTime": "10:00",
+      "endTime": "15:00",
+      "venue": "Sports Complex",
+      "category": "sports",
+      "description": "Exciting singles and doubles matches to crown the campus tennis champions.",
+      "status": "past",
+      "registrationRequired": false,
+      "image": "/images/tennis.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Robotics Demo Day",
+      "date": "2025-05-18",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "venue": "Engineering Workshop",
+      "category": "departmental",
+      "description": "Students showcased their autonomous robots and discussed future tech ideas.",
+      "status": "past",
+      "registrationRequired": true,
+      "image": "img24"
+    },
+    {
+      "id": 25,
+      "name": "Photography Exhibition: Campus Life",
+      "date": "2025-06-22",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "venue": "Art Gallery",
+      "category": "cultural",
+      "description": "A collection of stunning photographs capturing everyday moments around campus.",
+      "status": "past",
+      "registrationRequired": false,
+      "image": "img25"
+    }
   ]
 }

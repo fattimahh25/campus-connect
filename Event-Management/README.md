@@ -1,127 +1,153 @@
-# CampusConnect -- College Event Management Website
+📘 CampusConnect — College Event Management Website
+📌 Project Overview
 
-## 📌 Project Overview
+CampusConnect is a responsive web platform designed to centralize and streamline college event information.
+It provides students, faculty, and visitors with easy access to upcoming, ongoing, and past event details.
 
-CampusConnect is a **responsive NextGen website** designed to centralize
-and streamline college event information. It provides students, faculty,
-and visitors with easy access to upcoming, ongoing, and past event
-details.
+The platform ensures clarity, usability, and responsiveness across devices while maintaining a clean UI/UX without relying on third-party templates.
 
-The platform ensures **clarity, usability, and responsiveness** across
-devices while maintaining a clean UI/UX without relying on third-party
-templates.
+🎯 Features
+Functional Requirements
 
-------------------------------------------------------------------------
+Home Page
 
-## 🎯 Features
+Welcome message & banner/slider
 
-### Functional Requirements
+Navigation menu (Home, About, Events, Gallery, Feedback, Contact)
 
--   **Home Page**
-    -   Welcome message & banner/slider\
-    -   Navigation menu (Home, About, Events, Gallery, Feedback,
-        Contact)\
-    -   Highlights of upcoming events with countdowns & "Learn More"
-        buttons
--   **About Page**
-    -   College overview, traditions, and affiliations\
-    -   Annual event listings (Technical, Cultural, Sports, etc.)
--   **Event Catalog**
-    -   Dynamic event listing (loaded from JSON)\
-    -   Sorting by date, name, or category\
-    -   Filtering by Academic, Cultural, Sports, or Departmental events
--   **Gallery Page**
-    -   Event images grouped by year/category\
-    -   JSON-based data loading
--   **Feedback Page (Static)**
-    -   Non-functional demo form with fields: Name, Email, User Type,
-        Event Attended, Rating, Comments
--   **Contact Page**
-    -   Faculty & student coordinators' details\
-    -   Embedded Google Map of college location
--   **Bookmarking (Optional)**
-    -   Users can favorite/bookmark content (stored temporarily in Local
-        Storage/IndexedDB)
+Highlights of upcoming events with countdowns & "Learn More" buttons
 
-### Non-Functional Requirements
+About Page
 
--   Lightweight, client-side only (JSON-based data, no backend)\
--   Fast performance and smooth navigation\
--   Fully responsive and mobile-friendly\
--   Compatible with modern browsers\
--   Accessible and user-friendly interface
+College overview, traditions, and affiliations
 
-------------------------------------------------------------------------
+Annual event listings (Technical, Cultural, Sports, etc.)
 
-## 🛠️ Technologies Used
+Event Catalog
 
--   **Frontend**: HTML5, CSS3, Bootstrap, JavaScript, jQuery\
--   **Frameworks**: Angular (v9+) / ReactJS (v18+)\
--   **Design Toolkit**: Figma\
--   **Data Handling**: JSON / TXT files\
--   **Testing**: Local server via XAMPP\
--   **IDE**: Visual Studio Code / Notepad++ / CoffeeCup
+Dynamic event listing (loaded from JSON)
 
-------------------------------------------------------------------------
+Sorting by date, name, or category
 
-## 💻 Hardware & Software Requirements
+Filtering by Academic, Cultural, Sports, or Departmental events
 
-### Hardware
+Gallery Page
 
--   Intel Core i5/i7 Processor or higher\
--   8GB RAM minimum\
--   500GB Hard Disk\
--   Standard SVGA Color Monitor\
--   Keyboard & Mouse
+Event images grouped by year/category
 
-### Software
+JSON-based data loading
 
--   Windows / Linux / macOS\
--   Visual Studio Code (or any HTML editor)\
--   XAMPP (for local testing)\
--   Modern Web Browser (Chrome, Firefox, Edge, etc.)
+Feedback Page (Static)
 
-------------------------------------------------------------------------
+Non-functional demo form with fields: Name, Email, User Type, Event Attended, Rating, Comments
 
-## 📂 Project Deliverables
+Contact Page
 
-1.  Complete **source code** of the website\
-2.  **ReadMe file** (this document)\
-3.  **Project Report** (Problem Definition, Design, Flowcharts, DFDs,
-    Test Data, Installation Guide)\
-4.  **Video Demonstration (.mp4)** showcasing the website's
-    functionality (mandatory)\
-5.  (Optional) **Live Hosted URL** of the deployed site
+Faculty & student coordinators' details
 
-------------------------------------------------------------------------
+Embedded Google Map of the college location
 
-## 🚀 Installation & Setup
+Bookmarking (Optional)
 
-1.  Clone or extract the project files.\
+Users can favorite/bookmark content (stored temporarily in Local Storage/IndexedDB)
 
-2.  Place them inside the `htdocs` folder of XAMPP.\
+Non-Functional Requirements
 
-3.  Start **Apache** from XAMPP Control Panel.\
+Lightweight, client-side only (JSON-based data, no backend)
 
-4.  Open a browser and go to:
+Fast performance and smooth navigation
 
-        http://localhost/CampusConnect/
+Fully responsive and mobile-friendly
 
-5.  Explore all pages (Home, About, Events, Gallery, Feedback, Contact).
+Compatible with modern browsers
 
-------------------------------------------------------------------------
+Accessible and user-friendly interface
 
-## 📌 Assumptions & Notes
+🛠️ Technologies Used
 
--   The project is **client-side only**, with no backend integration.\
--   The **feedback form is non-functional** (UI demo purpose only).\
--   Event data and images are fetched from **static JSON files**.\
--   No third-party design templates are used (fully custom-built).\
--   AI-generated images may be used if needed (must be mentioned).
+Frontend: HTML5, CSS3, Bootstrap, JavaScript
 
-------------------------------------------------------------------------
+Framework: ReactJS (v18+)
 
-## 👨‍💻 Authors & Contributors
+Design Toolkit: Figma
 
--   Developed as part of **Aptech College Project**.\
--   Team Members: \[Add Your Names Here\]
+Data Handling: JSON
+
+Testing: Vite/Local server (npm run dev)
+
+IDE: Visual Studio Code
+
+💻 Hardware & Software Requirements
+Hardware
+
+Intel Core i5 or higher
+
+8GB RAM minimum
+
+500GB Hard Disk
+
+Standard SVGA Color Monitor
+
+Keyboard & Mouse
+
+Software
+
+Windows / macOS / Linux
+
+Visual Studio Code
+
+Node.js & NPM (for local testing)
+
+Modern Web Browser (Chrome, Firefox, Edge, etc.)
+
+📂 Project Deliverables
+
+Complete source code of the website
+
+ReadMe file (this document)
+
+Project Report (Problem Definition, Design, Flowcharts, DFDs, Test Data, Installation Guide)
+
+Video Demonstration (.mp4) showcasing the website's functionality
+
+Live Hosted URL of the deployed site
+
+🚀 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/campusconnect.git
+cd Event-Management
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open your browser and visit:
+
+http://localhost:5173/
+
+📌 Assumptions & Notes
+
+The project is client-side only, with no backend integration.
+
+The feedback form is non-functional (UI demo purpose only).
+
+Event data and images are fetched from static JSON files.
+
+No third-party design templates are used (fully custom-built).
+
+AI-generated images may be used where appropriate.
+
+👨‍💻 Authors & Contributors
+
+Developed as part of Aptech College Project.
+
+Team Members: FATIMA, DAMMAN, SAMEERA, ZAAKIA, SUMAIRA, LAIBA
