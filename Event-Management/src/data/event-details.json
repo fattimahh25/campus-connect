@@ -11,7 +11,7 @@
       "description": "Join us for an exciting day of scientific presentations and research showcases from our top students and faculty members.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/science.jpg"
+      "image": "img1"
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "description": "Experience diverse cultures through music, dance, food, and art in our annual multicultural celebration.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/cultural.jpg"
+      "image": "img2"
     },
     {
       "id": 3,
@@ -37,7 +37,7 @@
       "description": "Cheer for your favorite teams in the thrilling finals of our inter-college basketball championship.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/basketball.jpg"
+      "image": "img3"
     },
     {
       "id": 4,
@@ -50,7 +50,7 @@
       "description": "Explore cutting-edge research projects and meet faculty members from the Computer Science department.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/computer-science.jpg"
+      "image": "img4"
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@
       "description": "Connect with successful alumni and explore career opportunities in various industries.",
       "status": "past",
       "registrationRequired": true,
-      "image": "/images/alumni.jpg"
+      "image": "img5"
     },
     {
       "id": 6,
@@ -76,7 +76,7 @@
       "description": "Discover amazing artwork created by our talented students across various mediums and styles.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/art.jpg"
+      "image": "img6"
     },
     {
       "id": 7,
@@ -89,7 +89,7 @@
       "description": "Witness intense matches as teams compete for a spot in the championship finals.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/soccer.jpg"
+      "image": "img7"
     },
     {
       "id": 8,
@@ -102,7 +102,7 @@
       "description": "Learn about the latest innovations in engineering and participate in hands-on workshops.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/engineering.jpg"
+      "image": "img8"
     },
 
     {
@@ -116,7 +116,7 @@
       "description": "Prepare for the upcoming Math Olympiad with expert coaching and practice problems.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/math.jpg"
+      "image": "img9"
     },
     {
       "id": 10,
@@ -129,7 +129,7 @@
       "description": "Learn the essentials of writing and publishing research papers in academic journals.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/research.jpg"
+      "image": "img10"
     },
     {
       "id": 11,
@@ -142,7 +142,7 @@
       "description": "Meet professional advisors to discuss career paths and opportunities after graduation.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/career.jpg"
+      "image": "img11"
     },
 
     {
@@ -156,7 +156,7 @@
       "description": "Enjoy an evening of theater as the drama club presents a timeless classic.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/drama.jpg"
+      "image": "img12"
     },
     {
       "id": 13,
@@ -169,7 +169,7 @@
       "description": "Taste cuisines from around the world prepared by students and local chefs.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/food.jpg"
+      "image": "img13"
     },
     {
       "id": 14,
@@ -182,7 +182,7 @@
       "description": "Listen to amazing performances by our student music bands and solo artists.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/music.jpg"
+      "image": "img14"
     },
 
     {
@@ -196,7 +196,7 @@
       "description": "Join the friendly competition or cheer for your peers at the table tennis open.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/table-tennis.jpg"
+      "image": "img15"
     },
     {
       "id": 16,
@@ -209,7 +209,7 @@
       "description": "Watch thrilling races at our annual swimming gala featuring top athletes.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/swimming.jpg"
+      "image": "img16"
     },
     {
       "id": 17,
@@ -222,7 +222,7 @@
       "description": "A friendly cricket match between students and faculty members.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/cricket.jpg"
+      "image": "img17"
     },
 
     {
@@ -236,7 +236,7 @@
       "description": "Get hands-on experience with biology experiments guided by senior researchers.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/biology.jpg"
+      "image": "img18"
     },
     {
       "id": 19,
@@ -249,7 +249,7 @@
       "description": "Attend a talk by a renowned psychologist about mental health trends in students.",
       "status": "upcoming",
       "registrationRequired": false,
-      "image": "/images/psychology.jpg"
+      "image": "img19"
     },
     {
       "id": 20,
@@ -262,7 +262,7 @@
       "description": "Learn about essential lab safety practices and proper handling of chemicals.",
       "status": "upcoming",
       "registrationRequired": true,
-      "image": "/images/chemistry.jpg"
+      "image": "img20"
     },
     {
       "id": 21,
@@ -275,7 +275,7 @@
       "description": "A 12-hour hackathon where students built innovative apps and web solutions.",
       "status": "past",
       "registrationRequired": true,
-      "image": "/images/hackathon.jpg"
+      "image": "img21"
     },
     {
       "id": 22,
@@ -288,7 +288,7 @@
       "description": "A vibrant evening of performances by the dance society and guest artists.",
       "status": "past",
       "registrationRequired": false,
-      "image": "/images/dance.jpg"
+      "image": "img22"
     },
     {
       "id": 23,
@@ -301,7 +301,7 @@
       "description": "Exciting singles and doubles matches to crown the campus tennis champions.",
       "status": "past",
       "registrationRequired": false,
-      "image": "/images/tennis.jpg"
+      "image": "img23"
     },
     {
       "id": 24,

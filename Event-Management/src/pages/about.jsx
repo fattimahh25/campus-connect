@@ -2,6 +2,7 @@ import React from "react";
 import "../css/about.css";
 import Card from "../components/Card"
 import teamImg from "../assets/images/about/team.jpg"; 
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -118,7 +119,7 @@ const About = () => {
           your celebrations. Follow us on social media, visit our store, or
           browse our gallery to discover designs that inspire.
         </p>
-        <button className="about-btn">Explore Our Events</button>
+        <Link to="/event-calendar" className="about-btn">Explore Our Events</Link>
       </section>
     </div>
   );

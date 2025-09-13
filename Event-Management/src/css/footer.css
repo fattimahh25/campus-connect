@@ -52,14 +52,10 @@ body {
   padding: 12px 25px;
   border-radius: 8px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
   margin-right: 300px;
   font-weight: bold;
   transition: all 0.3s ease;
-}
-.footer-btn .btnlink a{
-  text-decoration: none;
-  
 }
 .footer-brand {
   display: flex;

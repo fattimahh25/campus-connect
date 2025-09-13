@@ -93,14 +93,12 @@ function EventCard({ event }) {
 
   return (
     <div className="event-card">
-      {/* Event Image */}
       {event.image && (
         <div className="event-image">
           <img src={images[event.image]} alt={event.name} />
         </div>
       )}
 
-      {/* Bookmark Button */}
       <button
         className={`bookmark-btn ${bookmarked ? "bookmarked" : ""}`}
         onClick={() => setBookmarked(!bookmarked)}

@@ -99,6 +99,13 @@
   font-size: 0.9rem;
   color: #999;
 }
+.error {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin: 4px 0 10px;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .feedback-form {
     width: 100%;

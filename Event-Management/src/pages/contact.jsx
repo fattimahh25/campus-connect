@@ -78,30 +78,30 @@ function Contact() {
         </div>
         <h2 className="section-title">Campus Event Highlights</h2>
         <ImageSlider />
-        <div className="info-grid">
-          <div className="info-card">
-            <div className="info-icon">📍</div>
-            <h3 className="info-title">Campus Location</h3>
-            <p className="info-text">
+        <div className="inffo-grid">
+          <div className="inffo-card">
+            <div className="inffo-icon">📍</div>
+            <h3 className="inffo-title">Campus Location</h3>
+            <p className="inffo-text">
               Campus Connect is based at our college campus, serving as the hub
               for all student activities, cultural events, and academic
               functions.
             </p>
           </div>
 
-          <div className="info-card purple-card">
-            <div className="info-icon">📧</div>
-            <h3 className="info-title">Email Us</h3>
-            <p className="info-text">
+          <div className="inffo-card purple-card">
+            <div className="inffo-icon">📧</div>
+            <h3 className="inffo-title">Email Us</h3>
+            <p className="inffo-text">
               Have event-related queries or want to collaborate? Write to us at{" "}
               <strong> support@campusconnect.edu</strong>.
             </p>
           </div>
 
-          <div className="info-card">
-            <div className="info-icon">📞</div>
-            <h3 className="info-title">Call Us</h3>
-            <p className="info-text">
+          <div className="inffo-card">
+            <div className="inffo-icon">📞</div>
+            <h3 className="inffo-title">Call Us</h3>
+            <p className="inffo-text">
               Reach out to our event coordination team for assistance. Call us
               at <strong>+92 300 9876543</strong>.
             </p>

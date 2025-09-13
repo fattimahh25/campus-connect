@@ -9,7 +9,6 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* ---------------- CARD SLIDER ---------------- */
 .card-slider {
   width: 90%;
   margin: 0 auto;
@@ -18,6 +17,11 @@
 
 .slick-track {
   display: flex !important;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
 }
 
 .card-slide {
@@ -30,7 +34,7 @@
 .card {
   width: 100%;
   max-width: 320px;
-  min-height: 460px; 
+  min-height: 460px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,7 +52,6 @@
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
 
-/* Image zoom + glow */
 .card-img-top {
   width: 100%;
   height: 200px;
@@ -71,6 +74,9 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .card-text {
@@ -78,12 +84,15 @@
   color: #555;
   margin-bottom: 15px;
   line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .card-counter {
   font-size: 1rem;
   font-weight: 600;
-  color: #6a1b9a; 
+  color: #6a1b9a;
   margin-bottom: 20px;
 }
 
@@ -104,8 +113,57 @@
   box-shadow: 0 6px 15px rgba(156, 39, 176, 0.4);
 }
 
-/* ---------------- ANIMATIONS ---------------- */
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-slider {
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .card-slide {
+    padding: 8px;
+  }
+
+  .card {
+    max-width: 260px;
+    min-height: auto;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 220px;
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
 }

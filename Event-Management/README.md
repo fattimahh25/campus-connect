@@ -116,7 +116,7 @@ Live Hosted URL of the deployed site
 
 Clone the repository:
 
-git clone https://github.com/your-username/campusconnect.git
+git clone https://github.com/fattimahh25/campus-connect.git
 cd Event-Management
 
 

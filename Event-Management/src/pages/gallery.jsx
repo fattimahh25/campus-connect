@@ -79,7 +79,6 @@ const Gallery = () => {
         </h1>
       </div>
 
-      {/* Filters */}
       <div className="filter-controls">
         <div className="filter-group">
           <label className="filter-label">Group by:</label>
@@ -118,7 +117,6 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* Gallery Grid */}
       <div className="gallery-grid">
         {filteredData.map((item) => (
           <div
@@ -142,7 +140,6 @@ const Gallery = () => {
         ))}
       </div>
 
-      {/* Lightbox Modal */}
       {lightboxImage && (
         <div className="lightbox" onClick={() => setLightboxImage(null)}>
           <img src={lightboxImage} alt="Enlarged" className="lightbox-img" />
