@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../css/cards.css";
 
-import cultural from "../assets/images/cards images/culltural.jpg";
-import techfest from "../assets/images/cards images/techfest.jpg";
-import sports from "../assets/images/cards images/sports.jpg";
-import science from "../assets/images/cards images/science.jpg";
-import lecture from "../assets/images/cards images/lecture.jpg";
-import hackathone from "../assets/images/cards images/hackhathon.jpg";
+import cultural from "../assets/images/cards-images/culltural.jpg";
+import techfest from "../assets/images/cards-images/techfest.jpg";
+import sports from "../assets/images/cards-images/sports.jpg";
+import science from "../assets/images/cards-images/science.jpg";
+import lecture from "../assets/images/cards-images/lecture.jpg";
+import hackathone from "../assets/images/cards-images/hackhathon.jpg";
 
 import data from "../data/cards.json";
 
