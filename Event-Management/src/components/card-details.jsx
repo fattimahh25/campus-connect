@@ -42,12 +42,10 @@ function CardDetail() {
   return (
     <div className="event-detail-container">
       <div className="event-detail-card">
-        {/* Image Left */}
         <div className="event-detail-image">
           <img src={images[event.image]} alt={event.title} />
         </div>
 
-        {/* Details Right */}
         <div className="event-detail-info">
           <h2 className="event-detail-title">{event.title}</h2>
           <p className="event-detail-text">{event.text}</p>

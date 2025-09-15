@@ -16,7 +16,6 @@
   overflow: hidden;
 }
 
-/* Image section */
 .event-detail-image {
   flex: 1 1 40%;
   min-width: 280px;
@@ -32,7 +31,6 @@
   display: block;
 }
 
-/* Info section */
 .event-detail-info {
   flex: 1 1 60%;
   padding: 30px;
@@ -81,7 +79,6 @@
   background: #4338ca;
 }
 
-/* -------- Mobile Styles -------- */
 @media (max-width: 768px) {
   .event-detail-container {
     padding: 40px 20px;
@@ -122,7 +119,6 @@
   }
 }
 
-/* prevent long text overflow */
 .event-detail-info * {
   max-width: 100%;
   word-break: break-word;

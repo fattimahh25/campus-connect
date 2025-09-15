@@ -17,7 +17,7 @@
 
 .slick-track {
   display: flex !important;
-  align-items: stretch; /* sab cards barabar height le sakein */
+  align-items: stretch; 
 }
 
 .slick-slide {
@@ -35,7 +35,7 @@
 .card {
   width: 100%;
   max-width: 320px;
-  height: auto; /* fix: content ke hisaab se height */
+  height: auto; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,7 +69,7 @@
 .card-body {
   padding: 20px;
   text-align: center;
-  flex-grow: 1; /* content ko equal distribute karne ke liye */
+  flex-grow: 1; 
 }
 
 .card-title {
@@ -116,7 +116,6 @@
   box-shadow: 0 6px 15px rgba(156, 39, 176, 0.4);
 }
 
-/* --- Media Queries --- */
 @media (max-width: 768px) {
   .card-slider {
     width: 95%;
@@ -129,7 +128,7 @@
 
   .card {
     max-width: 260px;
-    height: auto; /* responsive fix */
+    height: auto; 
   }
 
   .card-title {
@@ -144,7 +143,7 @@
 @media (max-width: 480px) {
   .card {
     max-width: 220px;
-    height: auto; /* responsive fix */
+    height: auto; 
     padding-bottom: 10px;
   }
 
